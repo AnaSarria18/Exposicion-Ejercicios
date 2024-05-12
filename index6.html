@@ -1,0 +1,48 @@
+
+<!-- ejercio 1 de jhon mario  -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onselect</title>
+</head>
+<body>
+    
+    <input type="text" value="hola mundo" onselect="myFunction()">
+    <p id="demo"></p>
+
+
+    <script>
+        function myFunction(){
+            document.getElementById('demo').innerHTML = 'seleccionaste este texto'
+        }
+    </script>
+</body>
+</html> -->
+
+
+<!-- ejercicio 2 jhon mario  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onfocus</title>
+</head>
+<body>
+    
+    <input type="text" id="fname">
+    <p>la funcion recibio el foco</p>
+
+
+    <script>
+        document.getElementById('fname').addEventListener('focus', myFuction)
+        function myFuction(){
+            document.getElementById('fname').style.backgroundColor = 'green'
+        }
+    </script>
+</body>
+</html>

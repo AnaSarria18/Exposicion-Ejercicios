@@ -1,0 +1,14 @@
+
+/* ejercicios andres rivera */
+
+.producto {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .imagen-ampliada {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }

@@ -1,0 +1,69 @@
+<!-- ejecicios Ricardo y esteban  -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reset</title>
+</head>
+<body>
+    
+    <form id="miFormulario" onreset="manejarRestablecimiento()">
+        <input type="text" id="nombre" name="nombre">
+        <button type="reset">restablecer</button>
+    </form>
+
+    <script>
+        function manejarRestablecimiento(){
+
+           /*  codigo para ejecutra cuando se restablece el formulario */
+            console.log("¡El formulario se ha establecido");
+
+            /* borrar los datos del formulario */
+            document.getElementById("nombre").value ="";
+        }
+
+    </script>
+    
+</body>
+</html> -->
+
+
+
+
+
+<!-- ejercicio 2 ricardo y esteban  -->
+<!-- <form id="miFormulario" onreset="return confirmarRestablecimiento()">
+<input type="text" id="nombre" name="nombre">
+<button type="submit">enviar</button>
+<button type="reset">Restablecer</button>
+</form>
+
+<script>
+    function confirmarRestablecimiento(){
+        /* mostrar mensaje de confirmacion  */
+        return confirm("¿Esra seguro de que desea restablecer el formulario?")
+    }
+</script>
+
+ -->
+
+
+<!-- ejercio 3 de ricardo y esteban -->
+
+<form id="miFormulario" onreset="guardarDatos()">
+    <input type="text" id="nombre" name="nombre">
+    <button type="reset">Restablecer</button>
+</form>
+
+
+<script>
+    function guardarDatos(){
+      /*   guardar valores de los campos en variables */
+      const nombreGuardado = document.getElementById("nombre").value;
+
+     /*  mostrar mensaje de que los datos se han guardado */
+     alert("los valores del formulario se han guardado temporalmente.");
+
+    }
+</script>
